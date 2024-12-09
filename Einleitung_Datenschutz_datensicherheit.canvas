@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"f9f41cf20fa614a7","x":180,"y":-340,"width":280,"height":100,"type":"text","text":"<span class=\"green_css\"> 010101011 </span> \n ==preampel  oder 162 in Dezimal"},
+		{"id":"daaa93e37edd6535","x":-360,"y":-300,"width":360,"height":60,"type":"text","text":"DATEN :    sind Informationen über Tastsachen , sie bilden die Realität ab ."},
+		{"id":"53e0cccef0be3a08","x":160,"y":-480,"width":250,"height":60,"type":"text","text":"Kontext"},
+		{"id":"9a84ef534b9db790","x":140,"y":0,"width":420,"height":120,"type":"text","text":"Datenschutz : beschäftigt sich mit der Schutz (Personenbezogene Daten) aller natürlichen Personen"},
+		{"id":"0f13976901fe98ea","x":-640,"y":-40,"width":250,"height":160,"type":"text","text":"Datensicherheit  : beschäftigt sich mit der Schutz der Daten vor  ==Verlust== ==Zerstörung== ==unbefugte zugriff== "},
+		{"id":"f9aaa5748ed00909","x":660,"y":40,"width":320,"height":80,"type":"text","text":"Natürliche Personen : sind keine Firmen , und keine Ämte."},
+		{"id":"7e4dea77fec03e20","x":680,"y":160,"width":400,"height":140,"type":"text","text":"Personenbezogene Daten : sind alle Daten die sich auf einen identifizierbaren Person beziehen .\nzb.s : (Adresse -> in Verbindung mit einer Name) - Rentennummer - Versicherungsnummer . usw )"},
+		{"id":"ce2834f901c1eb96","x":1340,"y":200,"width":300,"height":100,"type":"text","text":"besonders zu schutzenden Daten : ( Genetische Daten - Ethnische Herkunft - Religion Zugehörichkeit )"},
+		{"id":"ee3b0a35feea6230","x":-960,"y":300,"width":250,"height":60,"type":"text","text":"SCHUTZZIELE "},
+		{"id":"0b62cd36a4390dc8","x":-620,"y":600,"width":250,"height":60,"type":"text","text":"Integrität"},
+		{"id":"9ed747654e7f224e","x":-1085,"y":460,"width":250,"height":60,"type":"text","text":"Verfügbarkeit"},
+		{"id":"4275cdd624fbb9e5","x":-1400,"y":600,"width":250,"height":60,"type":"text","text":"Vertraulichkeit"},
+		{"id":"a0cb202512c784f1","x":160,"y":680,"width":280,"height":160,"type":"text","text":"DSGVO = Datenschutzgrundverordnung     ==Bundesweit00"},
+		{"id":"cf95cd51a9744858","x":190,"y":380,"width":250,"height":120,"type":"text","text":"Datenschutz Gesetz ==EU weit=="},
+		{"id":"790cc5bc45c09f85","x":-440,"y":630,"width":250,"height":130,"type":"text","text":". Hashwerte prüfen .\n\n. sichere Kommunikationskanäle .\n\n\n"},
+		{"id":"94c7dfcb88806efc","x":-900,"y":490,"width":250,"height":60,"type":"text","text":". Backup .\n. Einsatz von RAID ."},
+		{"id":"19b9daa7de3ad1d4","x":-1220,"y":635,"width":250,"height":165,"type":"text","text":". Verschlüsslung .\n. Nutzer basierte Zugriff .\n. Rechte erteilen (so viele Rechte wie nötig , so wenige wie möglich)."}
+	],
+	"edges":[
+		{"id":"917ec4d38991fdf9","fromNode":"daaa93e37edd6535","fromSide":"right","toNode":"f9f41cf20fa614a7","toSide":"left"},
+		{"id":"a859795b27d85298","fromNode":"f9f41cf20fa614a7","fromSide":"top","toNode":"53e0cccef0be3a08","toSide":"bottom"},
+		{"id":"d9582a0de5b3e75e","fromNode":"daaa93e37edd6535","fromSide":"bottom","toNode":"9a84ef534b9db790","toSide":"top"},
+		{"id":"d119e3ce8147d38f","fromNode":"daaa93e37edd6535","fromSide":"bottom","toNode":"0f13976901fe98ea","toSide":"top"},
+		{"id":"97dd5ffeebe1324b","fromNode":"9a84ef534b9db790","fromSide":"right","toNode":"f9aaa5748ed00909","toSide":"left"},
+		{"id":"efe8c7445012df90","fromNode":"9a84ef534b9db790","fromSide":"bottom","toNode":"7e4dea77fec03e20","toSide":"left"},
+		{"id":"13b8c86e5eaddbee","fromNode":"7e4dea77fec03e20","fromSide":"right","toNode":"ce2834f901c1eb96","toSide":"left"},
+		{"id":"81c872fa3a5ba6f4","fromNode":"0f13976901fe98ea","fromSide":"bottom","toNode":"ee3b0a35feea6230","toSide":"top"},
+		{"id":"ac88b1edef277421","fromNode":"9a84ef534b9db790","fromSide":"bottom","toNode":"cf95cd51a9744858","toSide":"top"},
+		{"id":"c6ed8321a088ea5d","fromNode":"cf95cd51a9744858","fromSide":"bottom","toNode":"a0cb202512c784f1","toSide":"top"},
+		{"id":"1180dbfb13525ba9","fromNode":"9ed747654e7f224e","fromSide":"left","toNode":"4275cdd624fbb9e5","toSide":"right"},
+		{"id":"8fefb10b035ac98b","fromNode":"9ed747654e7f224e","fromSide":"right","toNode":"0b62cd36a4390dc8","toSide":"left"},
+		{"id":"44779f7719c1bda2","fromNode":"0b62cd36a4390dc8","fromSide":"left","toNode":"4275cdd624fbb9e5","toSide":"right"},
+		{"id":"1bb6e80ad24d7ff0","fromNode":"ee3b0a35feea6230","fromSide":"bottom","toNode":"9ed747654e7f224e","toSide":"top"}
+	]
+}

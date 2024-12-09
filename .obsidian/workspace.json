@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "7ec9a11120945ac4",
+    "type": "split",
+    "children": [
+      {
+        "id": "49f411c62a7cbbfc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb67c18262ccbb55",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Neuer Tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a187e77dcd47295c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d49f15b99a3b9a04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c235408bb8a89f6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Dateiexplorer"
+            }
+          },
+          {
+            "id": "acf13edacad576ef",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Suchen"
+            }
+          },
+          {
+            "id": "6c59bce535b014ad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Lesezeichen"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "87cfe37aa831fd86",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6fade6c303fa439",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5405d3895c151d27",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rückverweis"
+            }
+          },
+          {
+            "id": "2c89940e513a63b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Ausgehende Links"
+            }
+          },
+          {
+            "id": "18d33d0857166962",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ecfc1c6cc29e85fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Gliederung"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graphen-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false
+    }
+  },
+  "floating": {
+    "id": "d6b3c0ff231dd5e0",
+    "type": "floating",
+    "children": [
+      {
+        "id": "fc04260124d4d9d6",
+        "type": "window",
+        "children": [
+          {
+            "id": "813b7ccbedae860d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "65546625f5f00485",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Einleitung_Datenschutz_datensicherheit.canvas",
+                    "viewState": {
+                      "x": 124.67525900071394,
+                      "y": 269.1593748536394,
+                      "zoom": -0.6666666666666665
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "Einleitung_Datenschutz_datensicherheit"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 817,
+        "y": 136,
+        "width": 780,
+        "height": 760,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "cb67c18262ccbb55",
+  "lastOpenFiles": [
+    "Einleitung_Datenschutz_datensicherheit.canvas"
+  ]
+}
